@@ -2,9 +2,14 @@
 #animals{
 	display:flex;
 	flex-flow:row wrap;
-	row-gap:10px;
-	column-gap:10px;
+	justify-content:space-evenly;
 }
 .animal div{
 	border-radius:10px;
+}
+#animal-photos{
+	background-color:gray;
+}
+#name{
+	border-radius:50%;
 }
